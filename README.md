@@ -2,6 +2,7 @@
 
 This is a [brew](https://brew.sh/) for install Pidgin plugins on MacOS.
 Currently this tap has the following formulas:
+- `pidgin-birthday-reminder`
 - `pidgin-extended-blist-sort`
 - `pidgin-save-conv-order`
 - `pidgin-toolbar-shrink`
