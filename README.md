@@ -1,14 +1,14 @@
 # Homebrew Pidgin Plugins
 
-This is a [brew](https://brew.sh/) for install Pidgin plugins on MacOS.
-Currently this tap has the following formulas:
-- `pidgin-birthday-reminder`
-- `pidgin-extended-blist-sort`
-- `pidgin-save-conv-order`
-- `pidgin-toolbar-shrink`
-- `pidgin-unhighlight-system-messages`
-- `pidgin-znc-helper`
-- `purple-history-since`
+This is a [brew](https://brew.sh/) tap for Pidgin plugins on MacOS.  Currently
+this tap has the following formulas:
+- [pidgin-birthday-reminder](https://github.com/kgraefe/pidgin-birthday-reminder)
+- [pidgin-extended-blist-sort](https://github.com/kgraefe/pidgin-extended-blist-sort)
+- [pidgin-save-conv-order](https://github.com/kgraefe/pidgin-save-conv-order)
+- [pidgin-toolbar-shrink](https://launchpad.net/pidgin-toolbar-shrink)
+- [pidgin-unhighlight-system-messages](https://github.com/kgraefe/pidgin-unhighlight-system-messages)
+- [pidgin-znc-helper](https://github.com/kgraefe/pidgin-znc-helper)
+- [purple-history-since](https://github.com/kgraefe/purple-history-since)
 
 ## How to use
 ```
@@ -30,6 +30,7 @@ $ ln -s /usr/local/lib/pidgin ~/.purple/plugins
 $ brew uninstall <formula>
 $ brew untap kgraefe/pidgin-plugins
 ```
+
 ## Contributions
 We love patches. :heart: Please fork the project, do your changes and make a
 pull request.
