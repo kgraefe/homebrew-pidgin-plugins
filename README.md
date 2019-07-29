@@ -9,6 +9,8 @@ this tap has the following formulas:
 - [pidgin-unhighlight-system-messages](https://github.com/kgraefe/pidgin-unhighlight-system-messages)
 - [pidgin-znc-helper](https://github.com/kgraefe/pidgin-znc-helper)
 - [purple-history-since](https://github.com/kgraefe/purple-history-since)
+- [purple-icyque](https://github.com/EionRobb/icyque) (must be installed with
+  `--HEAD` as this plugin has no releases yet)
 
 ## How to use
 ```
