@@ -17,14 +17,8 @@ class PidginToolbarShrink < Formula
   end
 
   def caveats; <<~EOS
-    pidgin-toolbar-shrink is separate package that cannot be installed into
-    Pidgin's context automatically. To make it visible to Pidgin you must
-    create a link in your personal .purple directory:
-        mkdir -p ~/.purple/plugins/
-        ln -s /usr/local/lib/pidgin/toolbar_shrink.so ~/.purple/plugins/
-
-    Alternatively you can create link to /usr/local/lib/pidgin directly:
-        ln -s /usr/local/lib/pidgin ~/.purple/plugins
+    Make sure to properly install purple-add-prefix. Otherwise the plugin will
+    not be visible in Pidgin.
   EOS
   end
 end
