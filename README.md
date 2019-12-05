@@ -10,8 +10,7 @@ this tap has the following formulas:
 - [pidgin-znc-helper](https://github.com/kgraefe/pidgin-znc-helper)
 - [purple-add-prefix](https://github.com/kgraefe/purple-add-prefix)
 - [purple-history-since](https://github.com/kgraefe/purple-history-since)
-- [purple-icyque](https://github.com/EionRobb/icyque) (must be installed with
-  `--HEAD` as this plugin has no releases yet)
+- [purple-icyque](https://github.com/EionRobb/icyque)
 
 ## How to use
 ```

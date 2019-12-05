@@ -1,7 +1,11 @@
 class PurpleIcyque < Formula
   desc "ICQ WIM protocol for libpurple"
   homepage "https://github.com/EionRobb/icyque"
-  head "https://github.com/EionRobb/icyque.git"
+  version "git"
+  revision 0
+
+  url "https://github.com/EionRobb/icyque.git",
+    :revision => "0c143f2b513a4f8206df43f87bbe4f08b360a054"
 
   depends_on "pidgin"
   depends_on "json-glib"
