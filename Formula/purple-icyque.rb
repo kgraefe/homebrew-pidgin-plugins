@@ -2,7 +2,7 @@ class PurpleIcyque < Formula
   desc "ICQ WIM protocol for libpurple"
   homepage "https://github.com/EionRobb/icyque"
   version "git"
-  revision 1
+  revision 2
 
   url "https://github.com/EionRobb/icyque.git",
     :revision => "31a34ddbc418939029dd2654ede0e374c5d96431"
@@ -12,7 +12,7 @@ class PurpleIcyque < Formula
   depends_on "pkg-config" => :build
 
   def install
-    system "make", "install", "ICYQUE_DEST=" + lib + "/pidgin"
+    system "make", "install", "ICYQUE_DEST=" + lib + "/purple-2"
   end
 
   def caveats; <<~EOS
