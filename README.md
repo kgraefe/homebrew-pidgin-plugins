@@ -15,22 +15,13 @@ this tap has the following formulas:
 ## How to use
 ```
 $ brew tap kgraefe/pidgin-plugins
-$ brew install purple-add-prefix
-$ mkdir -p ~/.purple/plugins/
-$ ln -s /usr/local/lib/purple-2/purple-add-prefix.so ~/.purple/plugins/
 $ brew install <formula>
 ```
 
-When Pidgin is installed through `brew` it looks for its plugin only in its own
-cellar and in the users home directory (`~/.purple/plugins`).
-`purple-add-prefix` fixes the situation by adding `/usr/local/lib` to the
-search path. However, in order to be loaded it must be linked into the personal
-plugin directoy (`~/.purple/plugins`) of each user.
-
 ## How to uninstall
 ```
+# For each installed formula:
 $ brew uninstall <formula>
-$ brew uninstall purple-add-prefix
 $ brew untap kgraefe/pidgin-plugins
 ```
 
