@@ -8,7 +8,6 @@ this tap has the following formulas:
 - [pidgin-toolbar-shrink](https://launchpad.net/pidgin-toolbar-shrink)
 - [pidgin-unhighlight-system-messages](https://github.com/kgraefe/pidgin-unhighlight-system-messages)
 - [pidgin-znc-helper](https://github.com/kgraefe/pidgin-znc-helper)
-- [purple-add-prefix](https://github.com/kgraefe/purple-add-prefix)
 - [purple-history-since](https://github.com/kgraefe/purple-history-since)
 - [purple-icyque](https://github.com/EionRobb/icyque)
 
