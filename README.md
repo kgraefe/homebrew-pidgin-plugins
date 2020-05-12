@@ -4,6 +4,7 @@ This is a [brew](https://brew.sh/) tap for Pidgin plugins on MacOS.  Currently
 this tap has the following formulas:
 - [pidgin-birthday-reminder](https://github.com/kgraefe/pidgin-birthday-reminder)
 - [pidgin-extended-blist-sort](https://github.com/kgraefe/pidgin-extended-blist-sort)
+- [pidgin-master-password](https://github.com/kgraefe/pidgin-master-password)
 - [pidgin-save-conv-order](https://github.com/kgraefe/pidgin-save-conv-order)
 - [pidgin-toolbar-shrink](https://launchpad.net/pidgin-toolbar-shrink)
 - [pidgin-unhighlight-system-messages](https://github.com/kgraefe/pidgin-unhighlight-system-messages)
