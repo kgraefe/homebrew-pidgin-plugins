@@ -1,8 +1,8 @@
 class PidginBirthdayReminder < Formula
   desc "Pidgin Birthday Reminder reminds you of your buddies birthdays. Birthdays can be set by hand or be automatically filled-in for ICQ, MSN and XMPP protocols."
   homepage "https://github.com/kgraefe/pidgin-birthday-reminder"
-  url "https://github.com/kgraefe/pidgin-birthday-reminder/releases/download/v1.12/pidgin-birthday-reminder-1.12.tar.gz"
-  sha256 "1a7e55e15400e1ad4d264d5416999c47a37b28e0f3f184fb353126458b9f4d65"
+  url "https://github.com/kgraefe/pidgin-birthday-reminder/releases/download/v1.13/pidgin-birthday-reminder-1.13.tar.gz"
+  sha256 "c9a7d7e24bae42d4ead1b096599e3a803cbf1091b0b782d12bcc297d9359f007"
 
   depends_on "pidgin"
   depends_on "intltool" => :build
