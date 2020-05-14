@@ -15,10 +15,4 @@ class PidginToolbarShrink < Formula
                           "--prefix=#{prefix}"
     system "make", "install"
   end
-
-  def caveats; <<~EOS
-    Make sure to properly install purple-add-prefix. Otherwise the plugin will
-    not be visible in Pidgin.
-  EOS
-  end
 end

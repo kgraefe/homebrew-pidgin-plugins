@@ -9,29 +9,19 @@ this tap has the following formulas:
 - [pidgin-toolbar-shrink](https://launchpad.net/pidgin-toolbar-shrink)
 - [pidgin-unhighlight-system-messages](https://github.com/kgraefe/pidgin-unhighlight-system-messages)
 - [pidgin-znc-helper](https://github.com/kgraefe/pidgin-znc-helper)
-- [purple-add-prefix](https://github.com/kgraefe/purple-add-prefix)
 - [purple-history-since](https://github.com/kgraefe/purple-history-since)
 - [purple-icyque](https://github.com/EionRobb/icyque)
 
 ## How to use
 ```
 $ brew tap kgraefe/pidgin-plugins
-$ brew install purple-add-prefix
-$ mkdir -p ~/.purple/plugins/
-$ ln -s /usr/local/lib/purple-2/purple-add-prefix.so ~/.purple/plugins/
 $ brew install <formula>
 ```
 
-When Pidgin is installed through `brew` it looks for its plugin only in its own
-cellar and in the users home directory (`~/.purple/plugins`).
-`purple-add-prefix` fixes the situation by adding `/usr/local/lib` to the
-search path. However, in order to be loaded it must be linked into the personal
-plugin directoy (`~/.purple/plugins`) of each user.
-
 ## How to uninstall
 ```
+# For each installed formula:
 $ brew uninstall <formula>
-$ brew uninstall purple-add-prefix
 $ brew untap kgraefe/pidgin-plugins
 ```
 
